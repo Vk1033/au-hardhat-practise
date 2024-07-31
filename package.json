@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "hardhat": "^2.22.7"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
@@ -25,6 +24,7 @@
     "@typechain/hardhat": "^9.0.0",
     "chai": "^4.2.0",
     "ethers": "^6.4.0",
+    "hardhat": "^2.22.7",
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.3.0"

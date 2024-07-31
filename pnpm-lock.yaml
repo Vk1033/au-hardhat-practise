@@ -11,9 +11,6 @@ importers:
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
-      hardhat:
-        specifier: ^2.22.7
-        version: 2.22.7(ts-node@10.9.2(@types/node@22.0.1)(typescript@5.5.4))(typescript@5.5.4)
     devDependencies:
       '@nomicfoundation/hardhat-chai-matchers':
         specifier: ^2.0.0
@@ -48,6 +45,9 @@ importers:
       ethers:
         specifier: ^6.4.0
         version: 6.13.2
+      hardhat:
+        specifier: ^2.22.7
+        version: 2.22.7(ts-node@10.9.2(@types/node@22.0.1)(typescript@5.5.4))(typescript@5.5.4)
       hardhat-gas-reporter:
         specifier: ^1.0.8
         version: 1.0.10(hardhat@2.22.7(ts-node@10.9.2(@types/node@22.0.1)(typescript@5.5.4))(typescript@5.5.4))
@@ -2005,18 +2005,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@7.5.10:
-    resolution: {integrity: sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==}
-    engines: {node: '>=8.3.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
   ws@8.17.1:
     resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
@@ -3524,7 +3512,7 @@ snapshots:
       tsort: 0.0.1
       undici: 5.28.4
       uuid: 8.3.2
-      ws: 7.5.10
+      ws: 7.4.6
     optionalDependencies:
       ts-node: 10.9.2(@types/node@22.0.1)(typescript@5.5.4)
       typescript: 5.5.4
@@ -4390,8 +4378,6 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@7.4.6: {}
-
-  ws@7.5.10: {}
 
   ws@8.17.1: {}
 
